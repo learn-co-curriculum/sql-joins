@@ -304,7 +304,7 @@ A FULL OUTER JOIN for our Cats and Owners tables would look like this:
 SELECT Cats.name, Cats.breed, Owners.name
 FROM Cats
 FULL OUTER JOIN Owners
-ON Cats.owner_id = Owner.id;
+ON Cats.owner_id = Owners.id;
 ```
 
 It would return:
